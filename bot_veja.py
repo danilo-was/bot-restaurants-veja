@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
-veja_data = pd.read_csv('assets\csv\Listas-Bot.csv')
+veja_data = pd.read_csv('assets\csv\Restaurantes restaurants II - Sheet1.csv')
 
 options = Options()
 options.add_argument("--headless")
